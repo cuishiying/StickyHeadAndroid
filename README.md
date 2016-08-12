@@ -6,6 +6,6 @@ ListView粘性头部
 效果如下：
 
 
-![image](https://github.com/1.png)
+![image](https://github.com/cuishiying/StickyHeadAndroid/1.png)
 
 在http://blog.csdn.net/xiaanming/article/details/17761431  基础上修改
