@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.irelint.stickyheadandroid.MainActivity">
+
+    <com.irelint.stickyheadandroid.view.StickyScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:text="HEAD"
+                    android:gravity="center"
+                    android:background="@android:color/holo_blue_light"/>
+                <include
+                    android:id="@+id/sticky_tab"
+                    layout="@layout/layout_sticky_head"
+                    />
+                <FrameLayout
+                    android:id="@+id/fm_conent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <include
+                android:id="@+id/top_tab"
+                layout="@layout/layout_top_head" />
+        </FrameLayout>
+    </com.irelint.stickyheadandroid.view.StickyScrollView>
+</RelativeLayout>
