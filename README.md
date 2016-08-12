@@ -4,6 +4,6 @@ ListView粘性头部
 
 项目要求加Tab切换
 效果如下：
-![image](https://github.com/cuishiying/StickyHeadAndroid.git/1.jpg)
+![image](https://github.com/cuishiying/StickyHeadAndroid.git/1.png)
 
-在http://blog.csdn.net/xiaanming/article/details/17761431基础上修改
+在http://blog.csdn.net/xiaanming/article/details/17761431  基础上修改
